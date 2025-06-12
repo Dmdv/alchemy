@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "alchemy"
+version = "0.1.0"
+description = "High-Performance Automated Trading System using Ray, Backtrader, and custom strategies."
+authors = ["Your Name <your@email.com>"]
+packages = [
+    { include = "alchemy" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+ray = "*"
+pandas = "*"
+backtrader = "*"
+python-dotenv = "*"
+pyzmq = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 

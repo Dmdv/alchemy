@@ -1,3 +1,4 @@
+# This file will be moved to alchemy/main.py as part of the package structure.
 import os
 import sys
 import time
